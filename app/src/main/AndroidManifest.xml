@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Week1">
+        <activity android:name=".screen_welcome"/>
+        <activity android:name=".screen_danh"/>
+        <activity android:name=".screen_login"/>
+        <activity android:name=".screen_signup"/>
+        <activity android:name=".screen_verify"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
