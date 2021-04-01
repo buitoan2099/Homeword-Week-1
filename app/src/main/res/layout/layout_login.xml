@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="26dp"
-        android:layout_marginTop="180dp"
+        android:gravity="center_vertical"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -179,7 +179,7 @@
 
             <Button
                 style="?android:attr/borderlessButtonStyle"
-                android:layout_width="50dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
                 android:fontFamily="@font/sofia_pro_regular"
