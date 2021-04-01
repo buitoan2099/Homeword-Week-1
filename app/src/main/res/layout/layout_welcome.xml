@@ -27,14 +27,14 @@
             android:fontFamily="@font/sofia_pro_medium"
             android:paddingHorizontal="0dp"
             android:paddingVertical="0dp"
-            android:text="@string/skip"
+            android:text="skip"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="#FE724C"
             android:textFontWeight="14"
             android:textSize="14sp"
             app:cornerRadius="32dp"
-            tools:ignore="MissingConstraints"
+            tools:ignore="MissingConstraints,RtlCompat"
             android:layout_width="0dp">
 
         </Button>
