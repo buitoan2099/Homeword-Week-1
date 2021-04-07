@@ -12,6 +12,7 @@
         <activity android:name=".screen_welcome"/>
         <activity android:name=".screen_danh"/>
         <activity android:name=".screen_login"/>
+        <activity android:name=".screen_splash"/>
         <activity android:name=".screen_signup"/>
         <activity android:name=".screen_verify"/>
         <activity android:name=".MainActivity">

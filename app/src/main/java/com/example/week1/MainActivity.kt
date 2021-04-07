@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val click2: Button =  findViewById(R.id.a2);
         click2.setOnClickListener{
-            val data2 = Intent(this,screen_danh::class.java)
+            val data2 = Intent(this,screen_splash::class.java)
             startActivity(data2);
         }
 

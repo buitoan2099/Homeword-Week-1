@@ -50,7 +50,7 @@
         android:paddingTop="170dp"
         tools:ignore="MissingConstraints,RtlSymmetry"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="5dp">
 
         <TextView
             android:layout_width="wrap_content"
