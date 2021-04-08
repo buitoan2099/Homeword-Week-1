@@ -219,6 +219,7 @@
 
             <Button
                 style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/dangnhap1"
                 android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"

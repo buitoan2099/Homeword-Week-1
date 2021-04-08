@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Sign_In"><u>Sign In</u></string>
+    <string name="No_user_warning">This account is not exited</string>
+    <string name="Wrong_password_warning">Wrong password</string>
 </resources>

@@ -19,7 +19,7 @@
         <Button
             android:layout_gravity="end"
             android:layout_weight="1"
-            android:id="@+id/textColor"
+            android:id="@+id/back_from_login"
             android:layout_height="45dp"
             android:fontFamily="@font/sofia_pro_medium"
             android:paddingHorizontal="0dp"
@@ -178,6 +178,7 @@
             </TextView>
 
             <Button
+                android:id="@+id/dangky"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"

@@ -3,6 +3,7 @@ package com.example.week1
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.synnapps.carouselview.CarouselView
 import com.synnapps.carouselview.ImageListener
@@ -21,6 +22,11 @@ class screen_danh : AppCompatActivity() {
         val carouselView = findViewById<CarouselView>(R.id.carouselView)
         carouselView.setPageCount(sampleImages.size)
         carouselView.setImageListener(imageListener)
+        val click: ImageButton =  findViewById(R.id.movewel);
+        click.setOnClickListener{
+            val intent = Intent(this,screen_welcome::class.java)
+            startActivity(intent)
+        }
     }
     var imageListener: ImageListener = ImageListener { position, imageView -> //
         // You can use Glide or Picasso here

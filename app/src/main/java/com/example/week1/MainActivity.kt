@@ -21,13 +21,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(data2);
         }
 
-        val click3: Button =  findViewById(R.id.a3);
+        val click3: Button =  findViewById(R.id.a4);
         click3.setOnClickListener{
             val data3 = Intent(this,screen_login::class.java)
             startActivity(data3);
         }
 
-        val click4: Button =  findViewById(R.id.a4);
+        val click4: Button =  findViewById(R.id.a3);
         click4.setOnClickListener{
             val data4 = Intent(this,screen_signup::class.java)
             startActivity(data4);
